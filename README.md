@@ -47,7 +47,7 @@ Purchase and gather necessary supplies and equipment. Below is a photo of everyt
   * Shown in the photo as a roll next to the adhesive hook and loop stickers.
 8. 10 Piece 5-Pin Micro USB Type B Male Connectors with Plastic Cover Kit 
 
-See the components section in this project for details on where these items where purchased and the costs.
+See this [components section](https://hackaday.io/project/162169/components) in this project for details on where these items where purchased and the costs.
 
 ### Step 2: Wire Preparation
 Take your EEG lead wire and remove the safety jacket (circled in green) by giving it a tug, which should expose about 1 to 7 mm of wire. Or cut close to the safety jacket and use your wire strippers to expose the wire.
