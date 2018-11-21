@@ -35,16 +35,16 @@ Purchase and gather necessary supplies and equipment. Below is a photo of everyt
 
 1. Heat shrink for wrapping the Micro USB connector in
 2. Lead wire for EEG electrodes
-  * Since we are only removing the safety jacket (the end of our wire) we can use any electrode wire such as an OpenBCI snap electrode   cable, gold cup cable, etc.
-  * In this tutorial, we will be using a lead wire designed for snapping on dry EEG electrodes as shown above.
+   * Since we are only removing the safety jacket (the end of our wire) we can use any electrode wire such as an OpenBCI snap electrode   cable, gold cup cable, etc.
+   * In this tutorial, we will be using a lead wire designed for snapping on dry EEG electrodes as shown above.
 3. EEG dry electrode (pack of 10+)
-  * As noted above, we could have used gold cup electrodes (which can be referred to as wet electrodes which means they would require conductive paste), or EMG / ECG foam solid gel electrodes that would have been used with snap electrode cables.
-  * In this tutorial, we will be using dry EEG electrodes that will snap onto our lead wire.
+   * As noted above, we could have used gold cup electrodes (which can be referred to as wet electrodes which means they would require conductive paste), or EMG / ECG foam solid gel electrodes that would have been used with snap electrode cables.
+   * In this tutorial, we will be using dry EEG electrodes that will snap onto our lead wire.
 4. 60/40 Flux Core Solder
 5. Soldering Iron (best practice is use a temperature controlled soldering iron, the one shown above is not)
 6. Wire Strippers
 7. Hook and loop (think Velcro) straps
-  * Shown in the photo as a roll next to the adhesive hook and loop stickers.
+   * Shown in the photo as a roll next to the adhesive hook and loop stickers.
 8. 10 Piece 5-Pin Micro USB Type B Male Connectors with Plastic Cover Kit 
 
 See this [components section](https://hackaday.io/project/162169/components) in this project for details on where these items where purchased and the costs.
