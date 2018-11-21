@@ -5,14 +5,15 @@ This is a guide for making your own auxiliary electrode for the Muse 2016 EEG he
 These auxiliary electrodes can be used to measure a variety of signals from any area of the head and body. For example, ECG from the chest, EMG from the neck or arms, EOG from around the eyes, or EEG from different sites on the scalp that the standard Muse electrodes do not reach (think Oz / Cz, or back of the head / top of the head). 
 
 With that said, the purposes of this guide is making an extra EEG electrode for the 2016 Muse headset. Additionally, with the intention of making 3-4 of these electrodes, the total cost (itemized in the components section) was roughly $42 after tax / shipping. Lastly, the only requirement is to know how to solder. Enjoy!
-Introduction
+
+# Introduction
 Hey! Thanks for checking out this tutorial, I hope you find it useful and if you have any recommendations, questions or comments, please reach out! 
 
-I am one of the organizers of a kickass group NeuroTechLA, the Los Angeles chapter of NeuroTechX, a global network of engineers, designers, scientists, and hackers driven to learn and push forward the boundaries of bona fide neuroTechnology. If you're new to this field and interested in getting started with brain-computer interfaces (BCI) or electroencephalography (EEG), checkout NeuroTechEDU's GitHub repo of awesome list of BCI-related resources. Or, attend one of the events that we might be holding in your city!
+I am one of the organizers of a kickass group [NeuroTechLA](https://www.meetup.com/NeuroTechLA/), the Los Angeles chapter of [NeuroTechX](https://neurotechx.com/community/), a global network of engineers, designers, scientists, and hackers driven to learn and push forward the boundaries of bona fide neuroTechnology. If you're new to this field and interested in getting started with brain-computer interfaces (BCI) or electroencephalography (EEG), checkout NeuroTechEDU's GitHub repo of [awesome list of BCI-related resources](https://github.com/NeuroTechX/awesome-bci). Or, attend one of the events that we might be holding in your city!
 
-This tutorial is the result of our chapters desire to do BCI-related projects with Muse headsets. Specifically, we wanted our chapter to go through workshops like this P300 ERP Juypter Notebook experiment using an extra electrode and many more. There were a few tutorials and forum discussions on how to make these extra electrodes, but I found them a little bit incomplete and inaccessible. 
+This tutorial is the result of our chapters desire to do BCI-related projects with Muse headsets. Specifically, we wanted our chapter to go through workshops like this [P300 ERP Juypter Notebook](https://eeg-notebooks.readthedocs.io/en/latest/) experiment using an extra electrode and many more. There were a few [tutorials](http://forum.choosemuse.com/t/step-by-step-tutorial-for-making-muse-auxilliary-channel-electrode/3172) and [forum discussions](http://forum.choosemuse.com/t/obtaining-an-auxiliary-sensor/1348) on how to make these extra electrodes, but I found them a little bit incomplete and inaccessible. 
 
-Lastly, special thanks to Interaxon, the company responsible for the Muse headsets, for donating a couple headsets to our chapter! They, along with the many members of NeuroTechX, made this possible. 
+Lastly, special thanks to [Interaxon](https://choosemuse.com/), the company responsible for the Muse headsets, for donating a couple headsets to our chapter! They, along with the many members of NeuroTechX, made this possible. 
 
 **Disclaimer**
 * This is not an official Interaxon tutorial;
@@ -22,7 +23,7 @@ Lastly, special thanks to Interaxon, the company responsible for the Muse headse
 # Goal
 Our goal in this tutorial is to connect an EEG electrode via a male Micro USB connector to the auxiliary input of our 2016 Muse headset (the back right of the headset where you would charge the device) so we can access EEG (or EMG / ECG, etc.) data. 
 
-We will do this by removing the safety jacket and exposing wire from our lead EEG cable, solder said wire onto a 5-pin Micro USB connector, wrap with heat shrink, snap the Micro USB plastic covers on, attach hook & loop fasteners to our headset for keeping the electrode stable while recording, snap on a electrode to our cable lead and test using Python and the muse-lsl library.
+We will do this by removing the safety jacket and exposing wire from our lead EEG cable, solder said wire onto a 5-pin Micro USB connector, wrap with heat shrink, snap the Micro USB plastic covers on, attach hook & loop fasteners to our headset for keeping the electrode stable while recording, snap on a electrode to our cable lead and test using Python and the [muse-lsl library](https://github.com/urish/muse-lsl-python).
 
 ## Instructions
 Note: We assume you know how to solder, or you know someone who can help you. If not, soldering kits are ~$30 on Amazon. 
